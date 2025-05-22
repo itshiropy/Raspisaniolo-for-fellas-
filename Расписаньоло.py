@@ -60,7 +60,7 @@ def r_command(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Запуск бота"""
     # ЗАМЕНИТЕ НА РЕАЛЬНЫЙ ТОКЕН ВАШЕГО БОТА
-    updater = Updater("8091647290:AAHKHgilExR_dE7uQgpu3km3h968lyhGcDk")
+    updater = Updater("TOKEN")
 
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("rasp", r_command))
